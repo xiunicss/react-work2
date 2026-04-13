@@ -7,3 +7,7 @@
 - hello.ts 파일 생성
 - tsc hello.ts (typescript compiler) -> hello.js 생성됨
 - node hello.js 실행
+
+### typescript 기반의 React Project
+- npm create vite@latest my-app
+
