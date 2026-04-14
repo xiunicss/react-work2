@@ -13,12 +13,22 @@ const Player = ({player}: {
 }
 */
 
-type PlayerProps = {
+// 객체 정의 타입1
+/*  type PlayerProps = {
     player: {
         name: string;
         age:number
     }
     clickHandler: () => void
+} */
+
+// 객체 정의 타입2
+interface PlayerProps{
+    player: {
+        name: string;
+        age:number
+    }
+    clickHandler: () => void //return 값이 없음 void
 }
 
 const Player = ({player, clickHandler}: PlayerProps) => {

@@ -15,3 +15,8 @@ console.log(`장바구니: ${carts.join(', ')}`);
 // <T> - 제네릭(generic) 표기
 let carts2 = ['사과', '바나나', '우유'];
 console.log(`장바구니: ${carts.join(', ')}`);
+//any - 모든 타입 환영
+let value = 10;
+value = "hahaha";
+value = true;
+console.log(value);
